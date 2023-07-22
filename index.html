@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <div class="container">
+        <h1 class="title text-center text-primary ">BookMark Website</h1>
+
+        <div class="item py-3 my-3">
+            <input id="urlInput" type="text" class="form-control text-primary" placeholder="URL">
+            <span><i class="fa-solid fa-link text-primary"></i></span>
+        </div>
+        <div class="item py-3 my-3">
+            <input id="BookMarkNameInput" type="text" class="form-control text-primary" placeholder="BookMark Name">
+            <span><i class="fa-solid fa-bookmark text-primary"></i></span>
+        </div>
+        <button id="addBookMarkBtn" class="btn btn-outline-primary btn-lg">Add BookMark</button>
+        <table id="table" class="table table-dark my-5">
+            <thead>
+                <th>Index</th>
+                <th>Name</th>
+                <th class="w-25 text-center">Action</th>
+            </thead>
+            <tbody id="tableContent">
+            </tbody>
+        </table>
+    </div>
+
+<div id="overly">
+    <div id="msgBox" class=" p-4">
+        <h3 class="text-center text-white">fill all inputs</h3>
+        <h3 class="text-center text-white">Enter Valid URL</h3>
+        <h3 class="text-center text-white">Enter Valid Name</h3>
+        <button id="closeBtn" class="btn btn-danger">X</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

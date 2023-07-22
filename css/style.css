@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+
+
+body{
+    background-color: black;
+}
+.title{
+    padding: 20px;
+    width:fit-content;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 36px;
+}
+.item{
+    display: flex;
+    position: relative;
+}
+
+.item input{
+    padding: 10px;
+    font-size: 24px;
+}
+.item i{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+
+
+
+
+
+
+#overly{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msgBox{
+    background-color: rgb(22, 21, 21);
+    position: relative;
+    width: 25%;
+}
+
+#msgBox button{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}
+
+
+
+
+
+
+
+
+
